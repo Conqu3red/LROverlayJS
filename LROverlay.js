@@ -309,12 +309,13 @@ function Lro() {
 				console.log(event.target.result);
 
 				var img = document.getElementById('output');
-
+				sleep(2000)
 				var canvas = document.createElement('canvas');
 				canvas.id = "canvas"
 				canvas.width = img.width;
 				canvas.height = img.height;
 				document.body.appendChild(canvas)
+				sleep(1000)
 				var canvas = document.getElementById("canvas")
 				var context = canvas.getContext('2d');
 				
@@ -358,6 +359,13 @@ function GetPixel(data,x,y){
 	return values
 }
 
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
 
 function ditherImage(rgb_data){
     var greyscale_data = []
