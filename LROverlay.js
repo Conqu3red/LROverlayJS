@@ -2,17 +2,18 @@
 // @name				 LROverlay JS
 // @namespace		http://tampermonkey.net/
 // @version			0.4
-// @description	Adds ability to rotate and scale selections
-// @author			 David Lu
+// @description	Adds the ability to use LROverlay from within the linerider website
+// @author			 Jack Bates (main UI interfacing created by David Lu)
 // @match				https://www.linerider.com/*
 // @match				https://*.official-linerider.com/*
 // @match				http://localhost:8000/*
-// @downloadURL	https://github.com/EmergentStudios/linerider-userscript-mods/raw/master/selection-scale-rotate.user.js
+// @downloadURL	https://github.com/JbCoder/LROverlayJS/raw/master/LROverlay.js
 // @grant				none
 // ==/UserScript==
 
 // jshint asi: true
 // jshint esversion: 6
+
 
 /* constants */
 const SELECT_TOOL = 'SELECT_TOOL'
