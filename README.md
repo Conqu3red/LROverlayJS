@@ -1,5 +1,5 @@
 # About
-LROverlayJS is a port of the linerider tool [LRoverlay](https://github.com/OllieMBM/LROverlay) that works as a mod for Linerider.com
+LROverlayJS is a port of the linerider tool [LROverlay](https://github.com/OllieMBM/LROverlay) that works as a mod for Linerider.com
 
 ## Usage
 
