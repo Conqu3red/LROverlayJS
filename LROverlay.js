@@ -312,11 +312,14 @@ function Lro() {
 				sleep(2000)
 				var canvas = document.createElement('canvas');
 				canvas.id = "canvas"
-				canvas.width = img.width;
-				canvas.height = img.height;
+				
+				//sleep(1000)
 				document.body.appendChild(canvas)
 				sleep(1000)
+
 				var canvas = document.getElementById("canvas")
+				canvas.width = img.width;
+				canvas.height = img.height;
 				var context = canvas.getContext('2d');
 				
 				
@@ -331,7 +334,7 @@ function Lro() {
 
 				document.body.removeChild(output)
 				document.body.removeChild(canvas)
-
+				window.trackData = []
 				// Main Calls
 				ditherImage(rgb_data)
 				//console.log(trackData)
