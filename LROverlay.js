@@ -320,6 +320,7 @@ function Lro() {
 				var canvas = document.getElementById("canvas")
 				canvas.width = img.width;
 				canvas.height = img.height;
+				var canvas = document.getElementById("canvas")
 				var context = canvas.getContext('2d');
 				
 				
